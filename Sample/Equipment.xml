@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Selection_x0020_Set" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                <xs:element name="IFC_x0020_Entity" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                <xs:element name="Color" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Selection_x0020_Set>Equipment</Selection_x0020_Set>
+    <IFC_x0020_Entity>IfcEquipmentElement</IFC_x0020_Entity>
+    <Color>-1</Color>
+  </Table>
+</NewDataSet>
